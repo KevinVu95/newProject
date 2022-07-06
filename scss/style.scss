@@ -1,10 +1,10 @@
 // Reset
-@import '../scss/base/reset';
+@import './base/reset';
 
 // Variables
-@import '../scss/base/header/variables';
+@import '../helpers/variables';
 
 // Button
-@import '../scss/components/button';
+@import './components/button';
 
 //

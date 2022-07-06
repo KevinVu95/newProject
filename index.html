@@ -44,7 +44,7 @@
             </div>
             <div class="col-10">
               <div class="row align-items-center">
-                <div class="col-3">
+                <div class="col-4">
                   <form class="d-flex" role="search">
                     <button class="btn btn-outline-secondary" type="submit">
                       <i class="fa-solid fa-magnifying-glass"></i>
@@ -67,11 +67,15 @@
                         <a class="nav-link" href="#">About Us</a>
                       </nav>
                     </div>
-                    <div class="col-4">
-                      <nav class="package-navbar">
-                        <i class="fa-solid fa-cart-plus"></i>
-                        <i class="fa-solid fa-user"></i>
-                      </nav>
+                    <div class="col-2">
+                      <div class="">
+                        <button type="button" class="border-0 bg-transparent">
+                          <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                        <button type="button" class="border-0 bg-transparent">
+                          <i class="fa-solid fa-user"></i>
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -117,11 +121,22 @@
             </div>
           </div>
         </div>
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-toggle="modal"
+          data-target="#dialog1"
+        >
+          Mở hộp thoại
+        </button>
       </section>
       <section class="sidebar"></section>
       <section class="grid"></section>
     </main>
 
+    <script>
+      $("#dialog1").modal("show");
+    </script>
     <script src="./js/index.js"></script>
   </body>
 </html>
