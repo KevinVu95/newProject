@@ -1,10 +1,20 @@
 // Reset
-@import './base/reset';
+@import "./base/reset";
 
 // Variables
-@import '../helpers/variables';
+@import "./helpers/variables";
 
 // Button
-@import './components/button';
+@import "./components/button";
 
-//
+
+
+.navbar {
+  .nav-link{
+    color: $color-dark;
+    font-size: $fs-1;
+    font-weight: $fw-3;
+  }
+}
+
+// 
